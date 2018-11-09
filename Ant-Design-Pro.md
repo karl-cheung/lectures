@@ -123,62 +123,64 @@ $ now ./dist
 
   - 目录
 
-  ├── src
+```
+src
 
-    ├── assets
-      ├── less
-        ├── A.less
-      ├── css
-        ├── A.css
-      ├── font
-        └── iconfontA.eot
-        └── iconfontA.svg
-        └── iconfontA.ttf
-        └── iconfontA.woff
-      ├── img
-        ├── pageA-1@2x.png
-        ├── pageA-1@3x.png
-      ├── js
-        ├── A.js
-      ├── json
-        ├── json-A.json
-      ├── keyt
-        ├── private-key-A
-        ├── public-key-A
-      ├── svg
-      ├── ts
+  assets
+    less
+      A.less
+    css
+      A.css
+    font
+      iconfontA.eot
+      iconfontA.svg
+      iconfontA.ttf
+      iconfontA.woff
+    img
+      pageA-1@2x.png
+      pageA-1@3x.png
+    js
+      A.js
+    json
+      json-A.json
+    keyt
+      private-key-A
+      public-key-A
+    svg
+    ts
 
-    └── components
-      └── componentsA
-        └── index.js
-        └── index.less
-        └── img
-          └── componentsA-1@2x.png
-          └── componentsA-1@3x.png
-        └── font
-          └── iconfontA.eot
-          └── iconfontA.svg
-          └── iconfontA.ttf
-          └── iconfontA.woff
+  components
+    componentsA
+      index.js
+      index.less
+      img
+        componentsA-1@2x.png
+        componentsA-1@3x.png
+      font
+        iconfontA.eot
+        iconfontA.svg
+        iconfontA.ttf
+        iconfontA.woff
 
-    └── e2e
+  e2e
 
-    └── layouts
+  layouts
 
-    └── locales
+  locales
 
-    └── models
+  models
 
-    └── pages
-      └── routeA
-        └── routeA-childA
-          └── routeA-childA-childA
+  pages
+    routeA
+      routeA-childA
+        routeA-childA-childA
 
-    └── global
+  global
 
-    └── services
+  services
 
-    └── utils
+  utils
+```
 
   - 代码检查
 
@@ -193,13 +195,13 @@ $ now ./dist
 
 ## git
 
-master - 生产分支
++ master - 生产分支
 
-develop - 开发分支
++ develop - 开发分支
 
-feature - 新功能分支
++ feature - 新功能分支
 
-1.0.0 - develop
++ 1.0.0 从 develop 分支开发
 
 
 
