@@ -71,7 +71,7 @@ $ now ./dist
 
 ### dva
 
-+ React + [Redux] + Saga
++ React + [Redux] + [Saga]
 
 + 纯粹的数据流
 
@@ -205,7 +205,7 @@ src
 
 
 
-[Ant Design Pro]: https://preview.pro.ant.design/dashboard/analysis
+[Ant Design Pro]: https://pro.ant.design/index-cn
 
 [ES2015+]: http://es6.ruanyifeng.com/
 
@@ -230,5 +230,7 @@ src
 [泰咖啡]: http://t.51shaoxi.com/user/index.html
 
 [Redux]: https://redux.js.org/
+
+[Saga]: https://redux-saga.js.org/
 
 [栅格]: https://ant.design/components/grid-cn/
