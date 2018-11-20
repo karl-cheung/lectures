@@ -28,4 +28,4 @@ The [MIT License].
 
 [前后端数据交互]: ./data-specification.md
 
-[稍息科技 web 前端项目汇总]: ./project.md
+[稍息科技 web 前端项目汇总]: ./project-sx.md
