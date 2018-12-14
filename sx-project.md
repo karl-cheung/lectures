@@ -1,4 +1,4 @@
-# project-sx
+# sx-project
 
 > 稍息科技 web 前端项目汇总。
 
