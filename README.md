@@ -2,7 +2,6 @@
 
 > Zhang Yu - 个人讲演的归档。
 
-
 ## 目录
 
 + [前后端数据交互]
@@ -15,12 +14,9 @@
 
 + [稍息 erp 系统的后端服务组归类]
 
-
 ## License
 
 The [MIT License].
-
-
 
 [MIT License]: ./LICENSE
 
