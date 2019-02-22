@@ -32,4 +32,4 @@ The [MIT License].
 
 [稍息 erp 系统的后端服务组归类]: ./sx-services-erp.md
 
-[商家后台开发计划]: ./data-specification.md
+[商家后台开发计划]: ./shop-manage.md
