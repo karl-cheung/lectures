@@ -32,7 +32,6 @@
 
   + tab 切换的方式较为粗糙。
 
-
 ### UmiJS
 
 + roadhog + 路由
@@ -42,7 +41,7 @@
 + 以框架的方式简化 React 开发
 
 ```shell
-# 国内源
+# 安装 yarn tyarn
 $ npm i yarn tyarn -g
 
 # 全局安装

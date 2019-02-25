@@ -2,19 +2,23 @@
 
 > Zhang Yu - 个人讲演的归档。
 
-## 目录
+## 通用
 
 + [前后端数据交互]
+
++ [JavaScript-Style-Guide]
+
++ [Ant-Design-Pro]
+
+## 稍息科技
 
 + [稍息科技 web 前端项目汇总]
 
 + [稍息科技的 erp 系统（企业资源计划）提议方案]
 
-+ [Ant-Design-Pro]
-
 + [稍息 erp 系统的后端服务组归类]
 
-+ [商家后台开发计划]
++ [稍息商家后台开发计划]
 
 ## License
 
@@ -24,12 +28,14 @@ The [MIT License].
 
 [前后端数据交互]: ./data-specification.md
 
+[JavaScript-Style-Guide]: ./JavaScript-Style-Guide.md
+
+[Ant-Design-Pro]: ./Ant-Design-Pro.md
+
 [稍息科技 web 前端项目汇总]: ./sx-project.md
 
 [稍息科技的 erp 系统（企业资源计划）提议方案]: ./sx-erp.md
 
-[Ant-Design-Pro]: ./Ant-Design-Pro.md
-
 [稍息 erp 系统的后端服务组归类]: ./sx-services-erp.md
 
-[商家后台开发计划]: ./shop-manage.md
+[稍息商家后台开发计划]: ./sx-shop-manage.md
