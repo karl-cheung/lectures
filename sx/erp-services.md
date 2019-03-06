@@ -1,4 +1,4 @@
-# sx-services-erp
+# erp-services
 
 > 稍息 erp 系统的后端服务组归类。
 
@@ -56,4 +56,4 @@
 
   + [文档地址]
 
-[文档地址]: ./data-specification.md
+[文档地址]: ../data-specification.md

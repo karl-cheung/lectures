@@ -1,4 +1,4 @@
-# sx-shop-manage
+# shop-manage
 
 > 稍息科技开放平台（erp）的新模块功能，对应分销商城的管理。
 
@@ -106,4 +106,4 @@ git push
 
 [Ant-Design-Pro]
 
-[Ant-Design-Pro]: ./Ant-Design-Pro.md
+[Ant-Design-Pro]: ../Ant-Design-Pro.md

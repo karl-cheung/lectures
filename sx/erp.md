@@ -1,4 +1,4 @@
-# sx-erp
+# erp
 
 > 稍息科技的 erp 系统（企业资源计划）提议方案。
 
@@ -165,7 +165,7 @@
 
 邮箱: [kimv.zhang@51shaoxi.com]
 
-微信: kimv_yu
+微信: vin__cheung
 
 [Ant Design Pro]: https://preview.pro.ant.design/dashboard/analysis
 
