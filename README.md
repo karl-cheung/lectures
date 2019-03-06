@@ -39,4 +39,3 @@ The [MIT License].
 [稍息科技 erp 系统的后端服务组归类]:  ./sx/erp-services.md
 
 [稍息科技商家后台开发计划]: ./sx/shop-manage.md
-s
