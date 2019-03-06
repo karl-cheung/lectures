@@ -20,6 +20,8 @@
 
 + [稍息科技商家后台开发计划]
 
++ [Zhang Yu 的交接文档]
+
 ## License
 
 The [MIT License].
@@ -39,3 +41,5 @@ The [MIT License].
 [稍息科技 erp 系统的后端服务组归类]:  ./sx/erp-services.md
 
 [稍息科技商家后台开发计划]: ./sx/shop-manage.md
+
+[Zhang Yu 的交接文档]: ./sx/Zhang&#32;Yu's&#32;handover&#32;documents.md
