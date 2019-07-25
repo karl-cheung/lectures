@@ -8,15 +8,17 @@
 
 + [JavaScript-Style-Guide]
 
-+ [Ant-Design-Pro]
+## React
+
++ [React 入门材料]
 
 ## 稍息科技
 
 + [稍息科技 web 前端项目汇总]
 
-+ [稍息科技 erp 系统（企业资源计划）提议方案]
++ [稍息科技 ERP 系统（企业资源计划）提议方案]
 
-+ [稍息科技 erp 系统的后端服务组归类]
++ [稍息科技 ERP 系统的后端服务组归类]
 
 + [稍息科技商家后台开发计划]
 
@@ -28,17 +30,21 @@ The [MIT License].
 
 [MIT License]: ./LICENSE
 
-[前后端数据交互]: ./data-specification.md
+[前后端数据交互]: ./public/data-specification.md
 
-[JavaScript-Style-Guide]: ./JavaScript-Style-Guide.md
+[JavaScript-Style-Guide]: ./public/JavaScript-Style-Guide.md
 
-[Ant-Design-Pro]: ./Ant-Design-Pro.md
+[React 入门材料]: ./react/react-introductory-materials.md
+
+[组件通信]: ./react/component-communication.md
+
+[Ant-Design-Pro]: ./react/Ant-Design-Pro.md
 
 [稍息科技 web 前端项目汇总]: ./sx/project.md
 
-[稍息科技 erp 系统（企业资源计划）提议方案]: ./sx/erp.md
+[稍息科技 ERP 系统（企业资源计划）提议方案]: ./sx/ERP.md
 
-[稍息科技 erp 系统的后端服务组归类]:  ./sx/erp-services.md
+[稍息科技 ERP 系统的后端服务组归类]:  ./sx/ERP-services.md
 
 [稍息科技商家后台开发计划]: ./sx/shop-manage.md
 

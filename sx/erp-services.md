@@ -1,6 +1,6 @@
-# erp-services
+# ERP-services
 
-> 稍息 erp 系统的后端服务组归类。
+> 稍息 ERP 系统的后端服务组归类。
 
 ## 接口需有前缀与版本号
 
