@@ -81,8 +81,10 @@ import React, { PureComponent } from 'react'
 class Fake extends PureComponent {
   componentDidMount() {
     const { dispatch } = this.props
+    const params = {}
     dispatch({
       type: 'fake/fetchList',
+      payload: params,
     })
     // .then((data) => {})
   }
