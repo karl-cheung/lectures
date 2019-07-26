@@ -87,13 +87,15 @@ ReactDOM.render(<LifeCycle />, document.getElementById('root'))
 
 + componentWillUpdate
 
-### 新生命周期
+### 新生命周期与[生命周期图谱]
 
-+ getDerivedStateFromProps
++ getDerivedStateFromProps 实例化组件之后以及在重新呈现组件之前调用新的静态生命周期。它可以返回要更新的对象 state，或 null 指示新对象 props 不需要任何 state 更新
 
-+ getSnapshotBeforeUpdate
++ getSnapshotBeforeUpdate 在进行突变之前（例如在更新 DOM 之前）调用新的生命周期。此生命周期的返回值将作为第三个参数传递给 componentDidUpdate。（此生命周期通常不需要，但在重新渲染过程中手动保留滚动位置等情况下非常有用。）
 
 ## [React.Component] 与 [React.PureComponent]
+
+> React.PureComponent = React.Component + shouldComponentUpdate
 
 ```js
 // React.Component
@@ -107,6 +109,8 @@ import React, { PureComponent } from 'react'
 
 class App extends PureComponent {}
 ```
+
+[生命周期图谱]: http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram
 
 [React v16.3.0：更新异步渲染(新的生命周期)]: https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html
 
