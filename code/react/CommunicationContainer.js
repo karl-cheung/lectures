@@ -1,12 +1,7 @@
 import React from 'react'
 
 class Container extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      value: '公共 Container 传递',
-    }
-  }
+  state = { value: '公共 Container 传递' }
 
   changeValue = (value) => {
     this.setState({ value })

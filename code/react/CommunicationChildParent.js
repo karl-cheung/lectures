@@ -1,12 +1,7 @@
 import React from 'react'
 
 class Parent extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      value: '子组件传递数据至父组件',
-    }
-  }
+  state = { value: '子组件传递数据至父组件' }
 
   changeValue = value => {
     this.setState({ value })

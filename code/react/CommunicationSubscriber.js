@@ -26,12 +26,7 @@ class Emitter extends React.Component {
 }
 
 class Listener extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      value: '发布订阅传递',
-    }
-  }
+  state = { value: '发布订阅传递' }
 
   componentDidMount() {
     this.changeValue = PubSub.subscribe('changeValue', (name, value) => {

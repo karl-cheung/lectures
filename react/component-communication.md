@@ -6,12 +6,7 @@
 import React from 'react'
 
 class Parent extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      value: '父组件传递数据至子组件',
-    }
-  }
+  state = { value: '父组件传递数据至子组件' }
 
   handleChange = (e) => {
     const { value } = e.target
@@ -47,12 +42,7 @@ ReactDOM.render(<Parent />, document.getElementById('root'))
 import React from 'react'
 
 class Parent extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      value: '子组件传递数据至父组件',
-    }
-  }
+  state = { value: '子组件传递数据至父组件' }
 
   changeValue = value => {
     this.setState({ value })
@@ -92,12 +82,7 @@ ReactDOM.render(<Parent />, document.getElementById('root'))
 import React from 'react'
 
 class Container extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      value: '公共 Container 传递',
-    }
-  }
+  state = { value: '公共 Container 传递' }
 
   changeValue = (value) => {
     this.setState({ value })
@@ -153,12 +138,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 class Provider extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      value: 'Context 传递',
-    }
-  }
+  state = { value: 'Context 传递' }
 
   static childContextTypes = {
     value: PropTypes.string,
@@ -249,12 +229,7 @@ const Provider = (value) => {
 }
 
 class Container extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      value: 'Context 传递 v16.3.0',
-    }
-  }
+  state = { value: 'Context 传递 v16.3.0' }
 
   handleChange = (e) => {
     const { value } = e.target
@@ -320,12 +295,7 @@ class Emitter extends React.Component {
 }
 
 class Listener extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      value: '发布订阅传递',
-    }
-  }
+  state = { value: '发布订阅传递' }
 
   componentDidMount() {
     this.changeValue = PubSub.subscribe('changeValue', (name, value) => {

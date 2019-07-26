@@ -2,12 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 class Provider extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      value: 'Context 传递',
-    }
-  }
+  state = { value: 'Context 传递' }
 
   static childContextTypes = {
     value: PropTypes.string,

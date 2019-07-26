@@ -20,12 +20,7 @@
 
 ```js
 class LifeCycle extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      value: 0,
-    }
-  }
+  state = { value: 0 }
 
   handleChange = () => {
     const { value } = this.state
@@ -55,6 +50,7 @@ class Content extends React.Component {
   }
   shouldComponentUpdate(newProps, newState) {
     return true
+    // return nextState.data !== this.state.data
   }
   componentWillUpdate(nextProps, nextState) {
     console.log('Component WILL UPDATE')

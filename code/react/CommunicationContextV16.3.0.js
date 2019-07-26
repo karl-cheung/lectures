@@ -11,12 +11,7 @@ const Provider = (value) => {
 }
 
 class Container extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      value: 'Context 传递 v16.3.0',
-    }
-  }
+  state = { value: 'Context 传递 v16.3.0' }
 
   handleChange = (e) => {
     const { value } = e.target
