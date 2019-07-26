@@ -75,7 +75,7 @@ $ now ./dist
 import React, { PureComponent } from 'react'
 import { connect } from 'dva'
 
-@connect(({ Fake }) => ({
+@connect(({ fake: { list } }) => ({
   list,
 }))
 
