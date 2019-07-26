@@ -73,6 +73,7 @@ $ now ./dist
 
 ```js
 import React, { PureComponent } from 'react'
+import { connect } from 'dva'
 
 @connect(({ Fake }) => ({
   list,
@@ -83,7 +84,7 @@ class Fake extends PureComponent {
     const { dispatch } = this.props
     const params = {}
     dispatch({
-      type: 'fake/fetchList',
+      type: 'fake/fetchFakeList',
       payload: params,
     })
     // .then((data) => {})
@@ -105,7 +106,7 @@ export default {
   },
 
   effects: {
-    *fetchFakeList(_, { call, put, select }) {
+    *fetchFakeList({ payload }, { call, put, select }) {
       const response = yield call(queryFakeList)
       if (response.code === api.code) {
         yield put({
