@@ -42,9 +42,9 @@ The [MIT License].
 
 [稍息科技 web 前端项目汇总]: ./sx/project.md
 
-[稍息科技 ERP 系统（企业资源计划）提议方案]: ./sx/ERP.md
+[稍息科技 ERP 系统（企业资源计划）提议方案]: ./sx/erp.md
 
-[稍息科技 ERP 系统的后端服务组归类]:  ./sx/ERP-services.md
+[稍息科技 ERP 系统的后端服务组归类]:  ./sx/erp-services.md
 
 [稍息科技商家后台开发计划]: ./sx/shop-manage.md
 
